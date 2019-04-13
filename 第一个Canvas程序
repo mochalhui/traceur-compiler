@@ -1,0 +1,33 @@
+[HTML]canvas-test.html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="uft-8">
+
+</head>
+
+<body>
+
+<!-- canvas 的定义 -->
+
+<canvas id="a_canvas" width="300" height="300">
+
+</canvas>
+
+<script type="text/javascript">
+
+	var canvas = document.getElementById("a_canvas");
+	var ctx = cnavas.getContext("2d");
+	ctx.fillStyle = "rgb(255,0,0)";
+	ctx.fillRect(50,50,200,200);
+	ctx.fillStyle = "rgb(0,0,255,0.5)";
+	ctx.fillRect(100,100,200,200);
+</script>
+
+</body>
+
+</html>
